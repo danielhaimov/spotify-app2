@@ -2,6 +2,7 @@
   "expo": {
     "name": "Spotify Redesign",
     "slug": "spotify-redesign",
+    "owner": "YOUR_EXPO_USERNAME", // הוסף את שם המשתמש שלך ב-Expo כאן
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -11,7 +12,9 @@
       "resizeMode": "contain",
       "backgroundColor": "#121212"
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.yourcompany.spotifyredesign"
@@ -23,10 +26,10 @@
       },
       "package": "com.yourcompany.spotifyredesign"
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    },
-    "plugins": ["expo-av"]
+    "extra": {
+      "eas": {
+        "projectId": "YOUR_EAS_PROJECT_ID" // אם יש לך מזהה פרויקט, הוסף אותו כאן
+      }
+    }
   }
 }
-
