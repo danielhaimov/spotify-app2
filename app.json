@@ -2,7 +2,7 @@
   "expo": {
     "name": "Spotify Redesign",
     "slug": "spotify-redesign",
-    "owner": "@dantv65/spotify2", // הוסף את שם המשתמש שלך ב-Expo כאן
+    "owner": "@dantv65/spotify2",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -28,8 +28,14 @@
     },
     "extra": {
       "eas": {
-        "projectId": "YOUR_EAS_PROJECT_ID" // אם יש לך מזהה פרויקט, הוסף אותו כאן
+        "projectId": "a4126f46-1d94-486a-b355-037ae58c10a6"
       }
-    }
+    },
+    "sdkVersion": "52.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ]
   }
 }
