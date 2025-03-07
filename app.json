@@ -2,7 +2,7 @@
   "expo": {
     "name": "Spotify Redesign",
     "slug": "spotify-redesign",
-    "owner": "dantv65", // הוסף את שם המשתמש שלך ב-Expo כאן
+    "owner": "dantv65/spotify2", // הוסף את שם המשתמש שלך ב-Expo כאן
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
